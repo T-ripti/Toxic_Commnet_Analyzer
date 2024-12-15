@@ -57,10 +57,12 @@ The dataset used is from [Kaggle's Toxic Comment Classification Challenge](https
 ## 📸 **Screenshots**
 
 ### 1. **Home Page of Gradio Interface**
-![Home Page](./path-to-homepage-screenshot.png)
+!![image](https://github.com/user-attachments/assets/77e0ecb5-17be-4b2a-9ed4-e10aedbeb623)
+
 
 ### 2. **Toxic Comment Analysis Results**
-![image](https://github.com/user-attachments/assets/fea5486a-7608-4ece-8e3e-b512c5493e3e)
+!![image](https://github.com/user-attachments/assets/09f60de5-6fbd-415c-8aae-99317433561a)
+
 
 ### 3. **Model Training Accuracy Plot**
 ![image](https://github.com/user-attachments/assets/56d96471-0edb-4bce-9ef9-ebf442d42403)
