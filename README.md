@@ -22,7 +22,7 @@ Toxic comments often disrupt online platforms, ranging from social media to foru
 
 ## 🧩 **Dataset**
 
-The dataset used is from [Kaggle's Toxic Comment Classification Challenge](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge). It includes over 150,000 Wikipedia comments, labeled into six toxicity categories. The data underwent cleaning and balancing to improve model accuracy.
+The dataset used is from [Kaggle's Toxic Comment Classification Challenge](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data). It includes over 150,000 Wikipedia comments, labeled into six toxicity categories. The data underwent cleaning and balancing to improve model accuracy.
 
 ---
 
