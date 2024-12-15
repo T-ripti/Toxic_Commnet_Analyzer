@@ -1,5 +1,6 @@
 # Toxic Comment Classification
-![Project Logo](![image](https://github.com/user-attachments/assets/47450d1a-d162-4fe7-8a09-087d189751b7))
+![Project Logo](![image](https://github.com/user-attachments/assets/e2a9a469-f1c0-4403-813a-e760d554b13b)
+)
 
 This repository contains the implementation of a **Toxic Comment Classification** project, which utilizes machine learning to detect and categorize toxic online comments. The primary goal is to create a safer online environment by identifying harmful content efficiently.
 
