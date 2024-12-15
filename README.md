@@ -64,7 +64,8 @@ The dataset used is from [Kaggle's Toxic Comment Classification Challenge](https
 )
 
 ### 3. **Model Training Accuracy Plot**
-![Training Accuracy](./path-to-training-accuracy-plot.png)
+![Training Accuracy](![image](https://github.com/user-attachments/assets/70e17577-dce7-4bda-9717-dd52895cfc77)
+)
 
 ---
 ## 🖥️ **How to Use**
