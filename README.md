@@ -1,20 +1,59 @@
-# Description
-Discussing things you care about can be difficult. The threat of abuse and harassment online means that many people stop expressing themselves and give up on seeking different opinions. Platforms struggle to effectively facilitate conversations, leading many communities to limit or completely shut down user comments.
+# Toxic Comment Classification
 
-The Conversation AI team, a research initiative founded by Jigsaw and Google (both a part of Alphabet) are working on tools to help improve online conversation. One area of focus is the study of negative online behaviors, like toxic comments (i.e. comments that are rude, disrespectful or otherwise likely to make someone leave a discussion). So far they’ve built a range of publicly available models served through the Perspective API, including toxicity. But the current models still make errors, and they don’t allow users to select which types of toxicity they’re interested in finding (e.g. some platforms may be fine with profanity, but not with other types of toxic content).
+This repository contains the implementation of a **Toxic Comment Classification** project, which utilizes machine learning to detect and categorize toxic online comments. The primary goal is to create a safer online environment by identifying harmful content efficiently.
 
-In this competition, you’re challenged to build a multi-headed model that’s capable of detecting different types of of toxicity like threats, obscenity, insults, and identity-based hate better than Perspective’s current models. You’ll be using a dataset of comments from Wikipedia’s talk page edits. Improvements to the current model will hopefully help online discussion become more productive and respectful.
+---
 
-Disclaimer: the dataset for this competition contains text that may be considered profane, vulgar, or offensive.
-# Evaluation
-Update: July 3, 2024. Due to changes in the competition dataset, we have changed the evaluation metric of this competition.
+## 📑 **Project Overview**
 
-Submissions are now evaluated on the mean column-wise ROC AUC. In other words, the score is the average of the individual AUCs of each predicted column.
+Toxic comments often disrupt online platforms, ranging from social media to forums. This project uses a neural network-based approach to classify comments into six categories:
+- Toxic
+- Severe Toxic
+- Obscene
+- Threat
+- Insult
+- Identity Hate
 
-Submission File
-For each id in the test set, you must predict a probability for each of the six possible types of comment toxicity (toxic, severe_toxic, obscene, threat, insult, identity_hate). The columns must be in the same order as shown below. The file should contain a header and have the following format:
+### **Objective**
+- Develop a classifier to identify toxic comments and prevent the spread of hate speech and cyberbullying.
+- Utilize a labeled dataset to train and evaluate multiple machine learning models.
 
-id,toxic,severe_toxic,obscene,threat,insult,identity_hate
-00001cee341fdb12,0.5,0.5,0.5,0.5,0.5,0.5
-0000247867823ef7,0.5,0.5,0.5,0.5,0.5,0.5
-etc.
+---
+
+## 🧩 **Dataset**
+
+The dataset used is from [Kaggle's Toxic Comment Classification Challenge](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge). It includes over 150,000 Wikipedia comments, labeled into six toxicity categories. The data underwent cleaning and balancing to improve model accuracy.
+
+---
+
+## 🛠️ **Key Features**
+
+1. **Data Preprocessing**:
+   - Cleaned text using regular expressions.
+   - Balanced the dataset to address class imbalances.
+
+2. **Model Development**:
+   - Evaluated various machine learning models, including logistic regression, LSTM, and CNNs.
+   - Implemented a hybrid LSTM + CNN model for optimal performance.
+
+3. **Web Interface**:
+   - Built using **Gradio** for real-time toxic comment analysis.
+
+4. **Evaluation Metrics**:
+   - Achieved high accuracy and minimized false positives to encourage constructive dialogue.
+
+---
+
+## 📈 **Results**
+
+- The hybrid LSTM-CNN model achieved the best performance.
+- Successfully classified comments into the six categories with significant accuracy.
+- Addressed class imbalance issues through custom preprocessing and data augmentation techniques.
+
+---
+
+## 🖥️ **How to Use**
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/toxic-comment-classification.git
