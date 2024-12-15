@@ -60,7 +60,8 @@ The dataset used is from [Kaggle's Toxic Comment Classification Challenge](https
 ![Home Page](./path-to-homepage-screenshot.png)
 
 ### 2. **Toxic Comment Analysis Results**
-![Analysis Results](./path-to-analysis-results-screenshot.png)
+![Analysis Results](![image](https://github.com/user-attachments/assets/fea5486a-7608-4ece-8e3e-b512c5493e3e)
+)
 
 ### 3. **Model Training Accuracy Plot**
 ![Training Accuracy](./path-to-training-accuracy-plot.png)
