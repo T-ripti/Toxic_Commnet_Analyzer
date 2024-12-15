@@ -1,4 +1,5 @@
 # Toxic Comment Classification
+![Project Logo](./logo.png)
 
 This repository contains the implementation of a **Toxic Comment Classification** project, which utilizes machine learning to detect and categorize toxic online comments. The primary goal is to create a safer online environment by identifying harmful content efficiently.
 
@@ -52,8 +53,41 @@ The dataset used is from [Kaggle's Toxic Comment Classification Challenge](https
 
 ---
 
+## 📸 **Screenshots**
+
+### 1. **Home Page of Gradio Interface**
+![Home Page](./path-to-homepage-screenshot.png)
+
+### 2. **Toxic Comment Analysis Results**
+![Analysis Results](./path-to-analysis-results-screenshot.png)
+
+### 3. **Model Training Accuracy Plot**
+![Training Accuracy](./path-to-training-accuracy-plot.png)
+
+---
 ## 🖥️ **How to Use**
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/toxic-comment-classification.git
+
+---
+
+## 🔮 **Future Scope**
+
+Explore advanced data augmentation techniques for better class distribution.
+Combine bidirectional LSTM and GRUs for improved text classification.
+Increase the model's robustness for longer and more complex comments.
+
+---
+
+## 📚 **References**
+- Kaggle Toxic Comment Classification Dataset: Link
+- Sahiladhav's Medium Article on Inappropriate Comment Scanner: Link
+
+---
+
+## 👩‍💻 **Contributors**
+1. Tripti Patel
+2. Hardik Dwivedi
+3. Abhishek Chauhan
